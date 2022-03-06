@@ -3,12 +3,15 @@ package com.amigoscode.employeemanager.service;
 import com.amigoscode.employeemanager.entity.Employee;
 import com.amigoscode.employeemanager.exception.EmployeeNotFoundException;
 import com.amigoscode.employeemanager.repository.EmployeeRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.UUID;
 
 @Service
+@Transactional
 public class EmployeeService {
     private final EmployeeRepository employeeRepository;
 
@@ -30,11 +33,11 @@ public class EmployeeService {
     }
 
     public Employee findEmployeeById(Long id){
-        return employeeRepository.findEmployeeById(id)
+        return employeeRepository.findById(id)
                 .orElseThrow(() -> new EmployeeNotFoundException("Employee by id "+id+" not found"));
     }
 
     public void deleteEmployee(Long id){
-        employeeRepository.deleleEmployeeById(id);
+        employeeRepository.deleteById(id);
     }
 }
