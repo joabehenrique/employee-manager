@@ -1,47 +1,47 @@
-# [:hammer_and_wrench: Finishing..] SDS DSMovie
+# [:hammer_and_wrench: Working..] Employee Manager
 
-![GitHub repo size](https://img.shields.io/github/repo-size/joabehenrique/sds-dsmovie?style=flat)
-![GitHub language count](https://img.shields.io/github/languages/count/joabehenrique/sds-dsmovie?style=flat)
-![GitHub forks](https://img.shields.io/github/forks/joabehenrique/sds-dsmovie?style=flat)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joabehenrique/sds-dsmovie?style=flat)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/joabehenrique/sds-dsmovie?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/joabehenrique/employee-manager?style=flat)
+![GitHub language count](https://img.shields.io/github/languages/count/joabehenrique/employee-manager?style=flat)
+![GitHub forks](https://img.shields.io/github/forks/joabehenrique/employee-manager?style=flat)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joabehenrique/employee-manager?style=flat)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/joabehenrique/employee-manager?style=flat)
 
-> Simple project developed ...
+> Project developed in the Spring Boot Full Stack with Angular track of Amigoscode
 
 ## 💻 Requirements
 
 Before you begin, make sure you have met the following requirements:
 
-- You need the latest version of `...` on your machine.
+- You need the latest version of `Java` on your machine.
 
-If you need installation instructions, [click here]("...").
+If you need installation instructions, [click here](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 
-## 🚀 Installing ...
+## 🚀 Installing Employee Manager
 
-To install ..., follow these steps:
+To install Employee Manager, follow these steps:
 
 1º Clone the repository.
 
 ```
->  git clone https://github.com/joabehenrique/sds-dsmovie.git
+>  git clone https://github.com/joabehenrique/employee-manager.git
 ```
 
-## ☕ Using ...
+## ☕ Using Employee Manager
 
-To use ..., follow these steps:
+To use Employee Manager, follow these steps:
 
 ```
-project available at: https://jh-dsmovie.netlify.app/
+
 ```
 
-## 📫 Contributing to Exlivery
+## 📫 Contributing to Employee Manager
 
-To contribute to Exlivery, follow these steps:
+To contribute to Employee Manager, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <nome_branch>`.
 3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Send to the original branch: `git push origin Exlivery / <local>`
+4. Send to the original branch: `git push origin Employee Manager / <local>`
 5. Create the pull request.
 
 Alternatively, see the GitHub documentation at [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)..
@@ -65,10 +65,8 @@ We thank the following people who contributed to this project:
 
 ## 😄 Be one of the contributors<br>
 
-Do you want to be part of this project? Click [here](https://github.com/joabehenrique/sds-dsmovie/blob/master/CONTRIBUTING.md) and read how to contribute.
+Do you want to be part of this project? Click [here](https://github.com/joabehenrique/employee-manager/blob/master/CONTRIBUTING.md) and read how to contribute.
 
 ## 📝 License
 
-This project is under license. See the [license](https://github.com/joabehenrique/sds-dsmovie/blob/master/LICENSE.md) file for more details.
-
-[⬆ Back to top](#SDSDSMovie)<br>
+This project is under license. See the [license](https://github.com/joabehenrique/employee-manager/blob/master/LICENSE.md) file for more details.
