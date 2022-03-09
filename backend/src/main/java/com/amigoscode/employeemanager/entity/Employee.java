@@ -4,9 +4,10 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
+@Table(name = "tb_employee")
 public class Employee implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false)
     private Long id;
 
@@ -15,19 +16,23 @@ public class Employee implements Serializable {
     private String jobTitle;
     private String phone;
     private String imageUrl;
+    private String address;
+    private String skype;
 
     @Column(nullable = false, updatable = false)
     private String employeeCode;
 
     public Employee(){}
 
-    public Employee(String name, String email, String jobTitle, String phone, String imageUrl, String employeeCode) {
+    public Employee(String name, String email, String jobTitle, String phone, String imageUrl, String employeeCode, String address, String skype) {
         this.name = name;
         this.email = email;
         this.jobTitle = jobTitle;
         this.phone = phone;
         this.imageUrl = imageUrl;
         this.employeeCode = employeeCode;
+        this.address = address;
+        this.skype = skype;
     }
 
     public Long getId() {
@@ -86,6 +91,22 @@ public class Employee implements Serializable {
         this.employeeCode = employeeCode;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getSkype() {
+        return skype;
+    }
+
+    public void setSkype(String skype) {
+        this.skype = skype;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -96,6 +117,8 @@ public class Employee implements Serializable {
                 ", phone='" + phone + '\'' +
                 ", imageUrl='" + imageUrl + '\'' +
                 ", employeeCode='" + employeeCode + '\'' +
+                ", address='" + address + '\'' +
+                ", skype='" + skype + '\'' +
                 '}';
     }
 }
