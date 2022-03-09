@@ -3,7 +3,6 @@ package com.amigoscode.employeemanager.service;
 import com.amigoscode.employeemanager.entity.Employee;
 import com.amigoscode.employeemanager.exception.EmployeeNotFoundException;
 import com.amigoscode.employeemanager.repository.EmployeeRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
