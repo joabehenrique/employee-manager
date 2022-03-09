@@ -6,4 +6,6 @@ export interface Employee {
     phone: string;
     imageUrl: string;
     employeeCode: string;
+    skype: string;
+    address: string;
 }
