@@ -20,7 +20,7 @@ body{
 
 .name-id{
     display: flex;
-   flex-direction: row;
+    flex-direction: row;
     width: 100%;
     justify-content: space-around;
     align-items: center;
@@ -29,6 +29,10 @@ body{
 #id-value{
     max-width: 40px;
     margin-right: 8px;
+}
+
+#pills-tab:hover{
+    cursor: pointer;
 }
 
 #id-name{

@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
   public editEmployee!: Employee;
   public closeResult = '';
   public page: Number = 0;
+  public pages!: Array<number>;
   public employees2!: Array<Object>;
 
   constructor(private employeeService: EmployeeService, private modalService: NgbModal) { }
@@ -24,11 +25,17 @@ export class AppComponent implements OnInit {
     this.getEmployees();
   }
 
+  setPage(i: number, event: any) {
+    event.preventDefault();
+    this.page = i;
+    this.getEmployees();
+  }
+
   public getEmployees(): void {
     this.employeeService.getEmployees(this.page).subscribe(
       (response) => {
-
         this.employees = response.content;
+        this.pages = new Array(response['totalPages'])
       },
       (error: HttpErrorResponse) => {
         alert(error.message);
