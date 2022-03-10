@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiBaseUrl: '/api/v1/employee'
+  apiBaseUrl: 'https://jh-employee-manager.herokuapp.com/api/v1/employee'
 };
 
 /*
