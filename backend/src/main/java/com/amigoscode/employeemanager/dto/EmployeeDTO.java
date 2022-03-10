@@ -2,20 +2,22 @@ package com.amigoscode.employeemanager.dto;
 
 import com.amigoscode.employeemanager.entity.Employee;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
 @Data
+@NoArgsConstructor
 public class EmployeeDTO implements Serializable {
-    final private Long id;
-    final private String name;
-    final private String email;
-    final private String jobTitle;
-    final private String phone;
-    final private String imageUrl;
-    final private String address;
-    final private String skype;
-    final private String employeeCode;
+    private Long id;
+    private String name;
+    private String email;
+    private String jobTitle;
+    private String phone;
+    private String imageUrl;
+    private String address;
+    private String skype;
+    private String employeeCode;
 
     public EmployeeDTO(Employee newEmployee) {
          this.id = newEmployee.getId();
