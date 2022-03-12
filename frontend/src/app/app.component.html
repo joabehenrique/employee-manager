@@ -1,5 +1,5 @@
 <div class="container" #content>
-  <nav class="navbar navbar-light ">
+  <nav *ngIf="employees?.length != 0" class="navbar navbar-light ">
     <button class="btn btn-success me-2" (click)="open(addEmployee, null)" type=" button">Add
       Employee</button>
   </nav>
