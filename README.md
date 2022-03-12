@@ -1,4 +1,4 @@
-# [:hammer_and_wrench: Working..] Employee Manager
+# 👩‍💼 Employee Manager
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/joabehenrique/employee-manager?style=flat)
 ![GitHub language count](https://img.shields.io/github/languages/count/joabehenrique/employee-manager?style=flat)
@@ -12,18 +12,24 @@
 
 Before you begin, make sure you have met the following requirements:
 
-- You need the latest version of `Java` on your machine.
+- You only need a browser to access the project in `netlify`.
 
-If you need installation instructions, [click here](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
+If you need installation instructions, [click here](https://www.google.com/intl/pt-BR/chrome/).
 
 ## 🚀 Installing Employee Manager
 
 To install Employee Manager, follow these steps:
 
-1º Clone the repository.
-
 ```
->  git clone https://github.com/joabehenrique/employee-manager.git
+You don't need to install anything, just open the project in your browser.
+```
+but, if you want to run the project locally on your machine
+
+1º Run the backend on your intellij just build and run
+
+2º Run the backend in your VSCode and run with the command below
+```
+> npm run start
 ```
 
 ## ☕ Using Employee Manager
@@ -31,7 +37,15 @@ To install Employee Manager, follow these steps:
 To use Employee Manager, follow these steps:
 
 ```
+The project is an employee manager, with Angular being my SPA and Java 
+with Spring boot as my backend.
 
+It can do the basic operations of a CRUD, adding, changing and deleting 
+an employee.
+
+Project developed in the Spring Boot Full Stack with Angular 
+track of Amigoscode, but I made several modifications, the 
+course served more as inspiration.
 ```
 
 ## 📫 Contributing to Employee Manager
