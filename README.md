@@ -27,7 +27,7 @@ but, if you want to run the project locally on your machine
 
 1º Run the backend on your intellij just build and run
 
-2º Run the backend in your VSCode and run with the command below
+2º Run the frontend in your VSCode and run with the command below
 ```
 > npm run start
 ```
